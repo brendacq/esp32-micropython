@@ -10,7 +10,7 @@ Caso seja a primeira vez usando o ESP32 com MicroPython, é necessário atualiza
 
 O 1º passo é baixar o firmware do MicroPython, diretamente no [site oficial](https://micropython.org/download/). 
 
-![Imgur](https://imgur.com/GXKnnbk)
+[![mpython-download.gif](https://s4.gifyu.com/images/mpython-download.gif)](https://gifyu.com/image/YgNz)
 
 Recomenda-se baixara versão estável mais recente.
 
