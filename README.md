@@ -9,10 +9,7 @@ Caso seja a primeira vez usando o ESP32 com MicroPython, é necessário atualiza
 ### 1. Baixar firmware
 
 O 1º passo é baixar o firmware do MicroPython, diretamente no [site oficial](https://micropython.org/download/). 
-
-![mpython-download.gif](https://s4.gifyu.com/images/mpython-download.gif)
-
-Recomenda-se baixara versão estável mais recente.
+Recomenda-se a versão estável mais recente.
 
 ### 2. Instalar esptool
 
@@ -76,9 +73,10 @@ from time import sleep
 # Atribuir a uma variável o GPIO2 como pino de saída
 led = Pin(2, Pin.OUT)
 
-# Atribuir ao led o estado contrário ao seu estado atual (se ligado, desliga, e vice-versa)
-led.value(not led.value())
-
-# Criar um delay de meio segundo
-sleep(0.5)
+while True:
+  # Atribuir ao led o estado contrário ao seu estado atual (se ligado, desliga, e vice-versa)
+  led.value(not led.value())
+  
+  # Criar um delay de meio segundo
+  sleep(0.5)
 ```
