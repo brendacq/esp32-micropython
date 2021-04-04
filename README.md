@@ -1,5 +1,7 @@
 # ESP32 com MicroPython - Primeiros Passos
 
+![Esp-micropython.png](https://www.imagemhost.com.br/images/2021/04/04/Esp-micropython3.png)
+
 ## Configuração
 
 Caso seja a primeira vez usando o ESP32 com MicroPython, é necessário atualizar o firmware da placa.
