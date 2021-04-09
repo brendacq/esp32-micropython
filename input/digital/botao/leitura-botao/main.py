@@ -1,9 +1,8 @@
 from machine import Pin
 from time import sleep
 
-botao = Pin(5, Pin.IN)
+botao = Pin(4, Pin.IN)
 
 while True:
-  leitura_botao = botao.value()
-  print(leitura_botao)
+  print(botao.value())
   sleep(0.5)
